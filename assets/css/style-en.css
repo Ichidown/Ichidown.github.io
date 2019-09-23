@@ -552,7 +552,8 @@ input.error, textarea.error {
 	width: 90%;
 	background: rgba(000,0,0,0.5);
 	padding: 15px;
-	text-align: center;color: white;
+	text-align: center;
+	color: white;
 	font-size: 18px;
 	position: absolute;bottom: 0	
 }
@@ -570,4 +571,46 @@ input.error, textarea.error {
     border-radius: 3px;
     transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
     border: 2px solid #5b9bbc;
+}
+
+.resume-btn {
+	line-height: 12px;
+	font-size: 8pt;
+	font-family: tahoma;
+	margin-top: 1px;
+	margin-right: 2px;
+	background-color: transparent !important;
+	border: 2px solid #5b9bbc ;
+	position:fixed !important;
+	top:20px;
+	right:10px;
+	color:#5b9bbc;
+	font-size: 500;
+}
+
+.resume-btn:hover{
+	border: 2px solid #ffffff !important;
+	background-color: #ffffff !important;
+}
+
+.occupation-image{
+	height: 300px;
+	width: 400px;
+	background-repeat: repeat;
+	object-fit: cover;
+}
+
+.occupation-content{
+	background-color: #ffffff !important;
+	height: 200px;
+	width: 600px;
+	padding: 35px;
+	vertical-align: middle;
+	margin: 50px 0 0 0;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.01);
+}
+
+.cool_font{
+	font-size: 10pt !important;
+	font-family: tahoma !important;
 }
