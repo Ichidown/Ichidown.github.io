@@ -16,7 +16,7 @@ body {
 	font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
 	margin: 0 auto;
 	background-color: #fff;
-	color: rgb(136, 146, 176);
+	color: rgb(138, 151, 190);
 }
 
 img { max-width: 100%; }
@@ -88,8 +88,11 @@ a img {
 	position: relative;
 }
 
-.section { background-color: #0d2c5a; }
-.section-alt { background-color: #0d2c5a; }
+.section { background-color: #163f63; }
+.section-alt { background-color: #15365b; }
+
+/*.section { background-color: #0d2c5a; }
+.section-alt { background-color: #0d2c5a; }*/
 
 .section-title {
 	margin: 0 0 15px 0;
@@ -594,19 +597,18 @@ input.error, textarea.error {
 }
 
 .occupation-image{
+	width: 300px;
 	height: 300px;
-	width: 400px;
-	background-repeat: repeat;
-	object-fit: cover;
+	background-size: cover;
+    background-repeat: no-repeat;
+	background-position: center;
 }
 
 .occupation-content{
-	background-color: #ffffff !important;
-	height: 200px;
-	width: 600px;
-	padding: 35px;
-	vertical-align: middle;
-	margin: 50px 0 0 0;
+	display: block;
+	background-color: rgb(32, 32, 58)!important;
+	padding: 70px 25px;
+	margin-top: 8.5%;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.01);
 }
 
@@ -614,3 +616,71 @@ input.error, textarea.error {
 	font-size: 10pt !important;
 	font-family: tahoma !important;
 }
+.textOC{
+	padding-right:190px !important;
+
+}
+.textOC2{
+	padding-left:190px !important;
+}
+
+.link-tag {
+	line-height: 12px;
+	font-size: 8pt;
+	font-family: tahoma;
+
+	
+	
+
+    font-family: 'Quicksand',sans-serif;
+	height: 10 !important;
+	
+	min-width: 30px;
+	
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	
+	margin-top: 1px;
+	margin-right: 2px;
+
+	
+	border-radius: 50px;
+
+
+	color:white !important;
+	font-weight: 400 !important;
+	font-size: 10px;
+}
+
+
+
+
+  
+  .divx {
+	box-shadow: -2px 2px 0 5px #163f63, -10px 10px 0 1px white;
+	position: relative;
+  }
+  
+  .divx::before {
+	background: white;
+	content: '';
+	position: absolute;
+
+	height: 5px;
+	width: 11px;
+	top: 7px;
+	right: 100%;
+  }
+  
+  .divx::after {
+	background: white;
+	content: '';
+	position: absolute;
+
+	height: 11px;
+	width: 5px;
+	top: 100%;
+	right: 9px;
+  }
